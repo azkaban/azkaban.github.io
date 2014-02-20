@@ -89,6 +89,9 @@
 .state-icon.state-icon-wait {
   background-position: -64px -80px;
 }
+.img-figure {
+  margin: 10px 0px;
+}
 .navbar-logo {
   float: left;
   padding: 15px 15px;
@@ -360,7 +363,7 @@ ul.footer-nav li a:hover {
 /* All levels of nav */
 .bs-sidebar .nav > li > a {
   display: block;
-  color: #716b7a;
+  color: #717171;
   padding: 5px 20px;
 }
 .bs-sidebar .nav > li > a:hover,
@@ -373,7 +376,7 @@ ul.footer-nav li a:hover {
 .bs-sidebar .nav > .active:hover > a,
 .bs-sidebar .nav > .active:focus > a {
   font-weight: bold;
-  color: #563d7c;
+  color: #717171;
   background-color: transparent;
   border-right: 1px solid #ff3601;
 }
@@ -499,4 +502,7 @@ ul.footer-nav li a:hover {
 }
 .navbar-inverse .navbar-nav > .active > a {
   border-bottom: 1px solid #ff3601;
+}
+.docs-section + .docs-section {
+  padding-top: 40px;
 }
