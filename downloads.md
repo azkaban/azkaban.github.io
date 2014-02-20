@@ -4,7 +4,7 @@ nav: downloads
 title: "Downloads"
 ---
 
-Please note that Azkaban2 is currently still in development and changes may occur quite frequently. We will be marking the upload dates of the packages before we get formal versioning number system in place.
+<p class="lead">Please note that Azkaban2 is currently still in development and changes may occur quite frequently. We will be marking the upload dates of the packages before we get formal versioning number system in place.</p>
 
 ### Azkaban Web Server
 [azkaban-web-server-2.1.tar.gz](https://s3.amazonaws.com/azkaban2/azkaban2/2.1/azkaban-web-server-2.1.tar.gz) _Uploaded  May 7, 2013_

@@ -4,7 +4,7 @@ nav: contributing
 title: "How to Contribute"
 ---
 
-We always welcome contributions to help make Azkaban better. Please take a moment to read this document if you would like to contribute. Please feel free to reach out on the [Azkaban Google Group](https://groups.google.com/forum/?fromgroups#!forum/azkaban-dev) if you have any questions.
+<p class="lead">We always welcome contributions to help make Azkaban better. Please take a moment to read this document if you would like to contribute. Please feel free to reach out on the <a href="https://groups.google.com/forum/?fromgroups#!forum/azkaban-dev" target="_blank">Azkaban Google Group</a> if you have any questions.</p>
 
 ### Reporting issues
 
