@@ -1,0 +1,37 @@
+---
+layout: default
+nav: contact
+title: "Contact"
+---
+
+<p class="lead">
+  The main developers of Azkaban are a part of LinkedIn's Data Team. For more information about our team, please visit our <a href="http://data.linkedin.com/" target="_blank">LinkedIn Data</a> site.
+</p>
+
+<div class="list-group az-team">
+{% for member in site.data.core-team %}
+  <div class="list-group-item">
+    <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user={{ member.user }}&amp;type=follow"></iframe>
+    <a class="team-member" href="https://github.com/{{ member.user }}">
+      <img src="http://www.gravatar.com/avatar/{{ member.gravatar }}" alt="@{{ member.user }}">
+      <strong>{{ member.name }}</strong> <small>@{{ member.user }}</small>
+    </a>
+  </div>
+{% endfor %}
+</div>
+
+<h3>Mailing List</h3>
+
+<p>
+  For questions and comments, please post messages to <a href="https://groups.google.com/forum/?fromgroups#!forum/azkaban-dev" target="_blank">Azkaban's Google Group</a>.
+</p>
+
+<h3>Get Involved</h3>
+
+<p>
+  We're using <a href="https://github.com/azkaban/azkaban2/issues">Github Issues</a> for tracking bugs. Get involved with Azkaban development by <a href="https://github.com/azkaban/azkaban2/issues/new">opening an issue</a> or submitting a pull request. For feature requests, please open a pull request first.
+</p>
+
+<p>
+  Please read our <a href="contributing.html">contribution guidelines</a> if you would like to contribute.
+</p>
