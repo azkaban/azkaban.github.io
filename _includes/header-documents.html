@@ -17,11 +17,23 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-						<li onClick="navMenuClick('downloads.html')"><a href="downloads.html">Downloads</a></li>
+            <li onClick="navMenuClick('{{ site.home }}/downloads.html')"><a href="{{ site.home }}/downloads.html">Downloads</a></li>
 						<li class="active" onClick="navMenuClick('{{ site.docs }}')"><a href="{{ site.docs }}">Documentation</a></li>
-						<li onClick="navMenuClick('contributing.html')"><a href="contributing.html">Contributing</a></li>
-						<li onClick="navMenuClick('license.html')"><a href="license.html">License</a></li>
-						<li onClick="navMenuClick('contact.html')"><a href="contact.html">Contact</a></li>
+            <li onClick="navMenuClick('{{ site.home }}//contributing.html')"><a href="{{ site.home }}/contributing.html">Contributing</a></li>
+            <li onClick="navMenuClick('{{ site.home }}/license.html')"><a href="{{ site.home }}/license.html">License</a></li>
+            <li onClick="navMenuClick('{{ site.home }}/contact.html')"><a href="{{ site.home }}/contact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GitHub <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://github.com/azkaban/azkaban2">azkaban2 repo</a></li>
+                <li><a href="https://github.com/azkaban/azkaban2/issues">azkaban2 issues</a></li>
+                <li class="divider"></li>
+                <li><a href="https://github.com/azkaban/azkaban-plugins">azkaban-plugins repo</a></li>
+                <li><a href="https://github.com/azkaban/azkaban-plugins/issues">azkaban-plugins issues</a></li>
+              </ul>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
