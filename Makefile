@@ -13,6 +13,7 @@ azkaban_css_DEPS = \
 	less/footer.less \
 	less/feature.less \
 	less/sidebar.less \
+	less/team.less \
 	less/callout.less \
 	less/custom.less
 
