@@ -8,7 +8,7 @@ title: "How to Contribute"
 
 ### Reporting issues
 
-We use [Github issues](https://github.com/azkaban/azkaban2/issues) to track bug reports, feature requests, and submitting pull requests.
+We use [Github issues](https://github.com/azkaban/azkaban/issues) to track bug reports, feature requests, and submitting pull requests.
 
 If you find a bug:
 
@@ -23,9 +23,9 @@ We welcome bug fixes, improvements, and new features. Before embarking on making
 1. [Fork the project](https://help.github.com/fork-a-repo), clone your fork, and add the upstream to your remote:
 
     ```bash
-    $ git clone git@github.com:<your-username>/azkaban2.git
-    $ cd azkaban2
-    $ git remote add upstream https://github.com/azkaban/azkaban2.git
+    $ git clone git@github.com:<your-username>/azkaban.git
+    $ cd azkaban
+    $ git remote add upstream https://github.com/azkaban/azkaban.git
     ```
 
 2. If you need to pull new changes committed upstream:

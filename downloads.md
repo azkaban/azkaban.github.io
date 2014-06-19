@@ -4,7 +4,7 @@ nav: downloads
 title: "Downloads"
 ---
 
-<p class="lead">Please note that Azkaban2 is currently still in development and changes may occur quite frequently. We will be marking the upload dates of the packages before we get formal versioning number system in place.</p>
+<p class="lead">Please note that Azkaban is currently still in development and changes may occur quite frequently. We will be marking the upload dates of the packages before we get formal versioning number system in place.</p>
 
 ### Azkaban Web Server
 [azkaban-web-server-2.5.0.tar.gz](https://s3.amazonaws.com/azkaban2/azkaban2/2.5.0/azkaban-web-server-2.5.0.tar.gz) _Uploaded April 21, 2014_
@@ -33,7 +33,7 @@ title: "Downloads"
 * Reportal [azkaban-reportal-2.5.0.tar.gz](https://s3.amazonaws.com/azkaban2/azkaban-plugins/2.5.0/azkaban-reportal-2.5.0.tar.gz)
 
 ### Sources
-The Azkaban source can be found on [github.com/azkaban/azkaban2](https://github.com/azkaban/azkaban2)
+The Azkaban source can be found on [github.com/azkaban/azkaban](https://github.com/azkaban/azkaban)
 
 The Azkaban plugin source can be found [github.com/azkaban/azkaban-plugins](https://github.com/azkaban/azkaban-plugins)
 

@@ -4,5 +4,5 @@ pygments: true
 
 tagline: "Open-source Workflow Manager"
 image: "img/app.png"
-repo: "azkaban/azkaban2"
-docs: "http://azkaban.github.io/azkaban2"
+repo: "azkaban/azkaban"
+docs: "http://azkaban.github.io/azkaban"
