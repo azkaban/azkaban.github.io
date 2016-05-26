@@ -8,8 +8,28 @@ title: "Contact"
   The main developers of Azkaban are a part of LinkedIn's Data Team. For more information about our team, please visit our <a href="http://data.linkedin.com/" target="_blank">LinkedIn Data</a> site.
 </p>
 
+<h3>
+  Active team members
+</h3>
+
 <div class="list-group az-team">
-{% for member in site.data.core-team %}
+  {% for member in site.data.core-team %}
+  <div class="list-group-item">
+    <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user={{ member.user }}&amp;type=follow"></iframe>
+    <a class="team-member" href="https://github.com/{{ member.user }}">
+      <img src="http://www.gravatar.com/avatar/{{ member.gravatar }}" alt="@{{ member.user }}">
+      <strong>{{ member.name }}</strong> <small>@{{ member.user }}</small>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<h3>
+  Past team members
+</h3>
+
+<div class="list-group az-team">
+{% for member in site.data.past-team %}
   <div class="list-group-item">
     <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user={{ member.user }}&amp;type=follow"></iframe>
     <a class="team-member" href="https://github.com/{{ member.user }}">
