@@ -1,8 +1,10 @@
 name: Azkaban
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 tagline: "Open-source Workflow Manager"
 image: "img/app.png"
 repo: "azkaban/azkaban"
 docs: "http://azkaban.github.io/azkaban"
+
+exclude: [vendor]
