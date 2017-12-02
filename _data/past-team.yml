@@ -1,3 +1,6 @@
+- name: Suvodeep Pyne
+  user: suvodeep-pyne
+
 - name: Anthony Hsu
   user: erwa
   gravatar: 82dc2d8b993dc54d3a183e558888d439
@@ -11,15 +14,12 @@
 
 - name: Gaurav Aggarwal
   user: logiclord
-  gravatar:
 
 - name: Hien Luu
   user: hluu
-  gravatar:
 
 - name: John Yu
   user: johnyu0520
-  gravatar:
   gravatar: 851f87844c61126db9a86c029dc6b553
 
 - name: Richard Park
@@ -28,4 +28,6 @@
 
 - name: Evan Li
   user: evlstyle
-  gravatar:
+
+- name: KyleFung
+  user: KyleFung
