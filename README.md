@@ -13,8 +13,8 @@ One time setup:
 
 It is **highly recommended** to use RVM for creating an isolated Ruby environment before installing packages.
 Using RVM will prevent possible conflicts with the default Ruby interpreter that comes with your OS.  
-Information for installing RVM can be found (here)[https://rvm.io/rvm/install] and basic usage 
-is found (here)[https://rvm.io/rvm/basics].
+Information for installing RVM can be found [here](https://rvm.io/rvm/install) and basic usage 
+is found [here](https://rvm.io/rvm/basics).
 
 The following instructions presume that RVM is installed and will create an isolate environment 
 before downloading needed dependencies from the Internet.
