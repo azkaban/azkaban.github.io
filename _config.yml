@@ -1,6 +1,6 @@
 name: Azkaban
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 
 tagline: "Open-source Workflow Manager"
 image: "img/app.png"
