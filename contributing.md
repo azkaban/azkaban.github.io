@@ -4,11 +4,15 @@ nav: contributing
 title: "How to Contribute"
 ---
 
-<p class="lead">We always welcome contributions to help make Azkaban better. Please take a moment to read this document if you would like to contribute. Please feel free to reach out on the <a href="https://groups.google.com/forum/?fromgroups#!forum/azkaban-dev" target="_blank">Azkaban Google Group</a> if you have any questions.</p>
+<p class="lead">We always welcome contributions to help make Azkaban better. Please take a moment to 
+read this document if you would like to contribute. Please feel free to reach out on the 
+<a href="https://groups.google.com/forum/?fromgroups#!forum/azkaban-dev" target="_blank">Azkaban Google Group</a> 
+if you have any questions.</p>
 
 ### Reporting issues
 
-We use [Github issues](https://github.com/azkaban/azkaban/issues) to track bug reports, feature requests, and submitting pull requests.
+We use [Github issues](https://github.com/azkaban/azkaban/issues) to track bug reports, feature requests, 
+and submitting pull requests.
 
 If you find a bug:
 
@@ -18,7 +22,9 @@ If you find a bug:
 
 ### Pull requests
 
-We welcome bug fixes, improvements, and new features. Before embarking on making significant changes, please open an issue and ask first so that you do not risk duplicating efforts or spending time working on something that may be out of scope.
+We welcome bug fixes, improvements, and new features. Before embarking on making significant changes, 
+please open an issue and ask first so that you do not risk duplicating efforts or spending time working 
+on something that may be out of scope.
 
 1. [Fork the project](https://help.github.com/fork-a-repo), clone your fork, and add the upstream to your remote:
 
@@ -53,8 +59,9 @@ We welcome bug fixes, improvements, and new features. Before embarking on making
     $ git push origin <feature-branch-name>
     ```
 
-6. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) against the upstream `master` branch. Please give your pull request a clear title and description and note which issue(s) your pull request fixes.
+6. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) against the upstream `master` branch. 
+Please give your pull request a clear title and description and note which issue(s) your pull request fixes.
 
-**Important**: By submitting a patch, you agree to allow the project owners to license your work under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
-
-
+**Important**: By submitting a patch, you agree to allow the project owners to license your work under the 
+[Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).  Additional information about contributing 
+to the Azkaban project can be found [here](https://github.com/azkaban/azkaban/blob/master/CONTRIBUTING.md)
